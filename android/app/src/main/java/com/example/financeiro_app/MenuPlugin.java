@@ -14,8 +14,6 @@ import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
-import io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl;
-import io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin;
 
 import static android.app.Activity.RESULT_OK;
 

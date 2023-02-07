@@ -1,8 +1,8 @@
-import 'package:financeiro_app/core/domain/entities/variation_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../core/services/menu_platform_channel.dart';
+import '../domain/entities/variation_entity.dart';
 import '../domain/usecases/add_asset_usecase.dart';
 import '../domain/usecases/del_asset_usecase.dart';
 import '../domain/usecases/get_asset_usecase.dart';
@@ -23,6 +23,7 @@ class GetAssetController extends GetxController with StateMixin<List<String>> {
   }
 
   fillList() async {
+    change(null, status: RxStatus.loading());
     var result = await _getAssetUseCase();
     result.fold(
       (error) => change(<String>[], status: RxStatus.error(error.message)),

@@ -2,7 +2,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:financeiro_app/layers/get_asset/domain/repositories/get_asset_repository.dart';
 
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 import 'get_asset_usecase.dart';
 
 class GetAssetUseCaseImpl implements GetAssetUseCase {

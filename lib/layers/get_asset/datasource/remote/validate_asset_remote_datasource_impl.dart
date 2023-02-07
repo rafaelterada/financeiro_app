@@ -6,7 +6,7 @@ import 'package:financeiro_app/layers/get_asset/data/datasources/validate_asset_
 import 'package:financeiro_app/layers/get_asset/data/dtos/variation_dto.dart';
 import 'package:financeiro_app/layers/get_asset/domain/errors/get_asset_error.dart';
 
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 
 class ValidateAssetRemoteDataSourceImpl implements ValidateAssetDataSource {
   final HttpService _httpService;

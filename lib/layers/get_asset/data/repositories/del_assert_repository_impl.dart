@@ -2,7 +2,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:financeiro_app/layers/get_asset/domain/repositories/del_asset_repository.dart';
 
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 import '../datasources/del_asset_datasource.dart';
 
 class DelAssetRepositoryImpl implements DelAssetRepository {

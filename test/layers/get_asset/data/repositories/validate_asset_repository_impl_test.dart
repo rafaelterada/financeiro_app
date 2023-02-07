@@ -1,5 +1,4 @@
 import 'package:dartz/dartz.dart';
-import 'package:financeiro_app/core/domain/entities/variation_entity.dart';
 import 'package:financeiro_app/layers/get_asset/data/datasources/validate_asset_datasource.dart';
 import 'package:financeiro_app/layers/get_asset/data/dtos/chart_dto.dart';
 import 'package:financeiro_app/layers/get_asset/data/dtos/indicators_dto.dart';
@@ -7,6 +6,7 @@ import 'package:financeiro_app/layers/get_asset/data/dtos/quote_dto.dart';
 import 'package:financeiro_app/layers/get_asset/data/dtos/result_dto.dart';
 import 'package:financeiro_app/layers/get_asset/data/dtos/variation_dto.dart';
 import 'package:financeiro_app/layers/get_asset/data/repositories/validate_asset_repository_impl.dart';
+import 'package:financeiro_app/layers/get_asset/domain/entities/variation_entity.dart';
 import 'package:financeiro_app/layers/get_asset/domain/errors/get_asset_error.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

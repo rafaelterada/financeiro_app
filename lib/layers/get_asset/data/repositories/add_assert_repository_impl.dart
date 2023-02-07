@@ -2,7 +2,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:financeiro_app/layers/get_asset/domain/repositories/add_asset_repository.dart';
 
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 import '../datasources/add_asset_datasource.dart';
 
 class AddAssetRepositoryImpl implements AddAssetRepository {

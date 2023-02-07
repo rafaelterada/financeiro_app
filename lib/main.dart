@@ -3,8 +3,8 @@ import 'package:financeiro_app/layers/get_asset/presentation/get_asset_page.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'layers/graph_variation/presentation/graph_variation_page.dart';
-import 'layers/list_variation/presentation/list_variation_page.dart';
+import 'layers/get_asset/presentation/graph_variation_page.dart';
+import 'layers/get_asset/presentation/list_variation_page.dart';
 
 Future<void> main() async {
   runApp(GetMaterialApp(

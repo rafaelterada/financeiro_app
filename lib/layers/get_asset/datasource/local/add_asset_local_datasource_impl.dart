@@ -2,7 +2,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:financeiro_app/core/services/local_storage_service/local_storage_service.dart';
 
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 import '../../data/datasources/add_asset_datasource.dart';
 
 class AddAssetLocalDataSourceImpl implements AddAssetDataSource {

@@ -1,10 +1,11 @@
 import 'dart:math';
 
-import 'package:financeiro_app/core/domain/entities/variation_entity.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+
+import '../domain/entities/variation_entity.dart';
 
 class GraphVariationPage extends StatelessWidget {
   const GraphVariationPage({super.key});

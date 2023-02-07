@@ -1,7 +1,8 @@
-import 'package:financeiro_app/core/domain/entities/variation_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+
+import '../domain/entities/variation_entity.dart';
 
 class ListVariationPage extends StatelessWidget {
   const ListVariationPage({super.key});

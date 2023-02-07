@@ -1,4 +1,4 @@
-import '../../../../core/domain/erros/error.dart';
+import '../../../../core/errors/error.dart';
 
 class GetAssetError extends Failure {
   @override
